@@ -528,7 +528,7 @@ services:
     image: docker.n8n.io/n8nio/n8n
     restart: always
     ports:
-      - "116.118.45.153:5678:5678"
+      - "5678:5678"
     environment:
       - N8N_HOST=${SUBDOMAIN}.${DOMAIN_NAME}
       - N8N_PORT=5678
