@@ -535,7 +535,7 @@ services:
       - N8N_PROTOCOL=https
       - N8N_SSL=true
       - NODE_ENV=production
-      - WEBHOOK_URL=https://n8n.winwinsolutions.vn/
+      - WEBHOOK_TUNNEL_URL=https://n8n.winwinsolutions.vn/
       - GENERIC_TIMEZONE=${GENERIC_TIMEZONE}
     volumes:
       - n8n_data:/home/node/.n8n
