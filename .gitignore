@@ -1,0 +1,6 @@
+supabase-win/volumes/db/data
+supabase-win/volumes/storage
+supabase-win/.env
+supabase-win/test.http
+supabase-win/docker-compose.override.yml
+supabase
