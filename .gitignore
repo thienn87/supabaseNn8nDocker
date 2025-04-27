@@ -4,3 +4,7 @@ supabase-win/.env
 supabase-win/test.http
 supabase-win/docker-compose.override.yml
 supabase
+<<<<<<< HEAD
+crawl4ai-docker/.llm.env
+=======
+>>>>>>> parent of 7336ab1 (no message)
