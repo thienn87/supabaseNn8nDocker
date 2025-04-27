@@ -569,7 +569,7 @@ services:
           memory: 1G
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:11235/health"]
+      test: ["CMD", "curl", "-f", "https://crawlai.winwinsolutions.vn/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -583,7 +583,7 @@ services:
         INSTALL_TYPE: ${INSTALL_TYPE:-default}
         ENABLE_GPU: ${ENABLE_GPU:-false}
 
-        
+
 volumes:
   db-config:
   n8n_data:
